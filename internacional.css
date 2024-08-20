@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Univers LT Std;
+ }
+hr{
+background-color: aqua;
+}
+.marca {
+    width: 240px;
+    height: auto;
+    margin: 20px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+    object-fit: contain;
+ }
+.divnota{
+    width: 600px;
+    background-color: aqua;
+    height: auto;
+    display: block;
+    margin-left: 280px;
+    margin-right: auto;
+}
+.internacional{
+    font-size: 23px;
+    font-weight: lighter;
+    color: grey;
+    letter-spacing: -1px;
+}
+.title{
+    font-size: 43px;
+    letter-spacing: -2px;
+    line-height: 48px;
+}
+.pretext{
+    letter-spacing: -1px;
+}
+.submarinoimg{
+    width: 600px;
+    height: auto;
+}
+.bold-first-word {
+    font-weight: bold;
+}
+h3{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.divtexto{
+    width: 510px;
+    height: auto;
+    margin-left: 370px;
+    font-weight: lighter;
+    font-size: 15px;
+    word-break: normal;
+}
+button{
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+.title2{
+    letter-spacing: -1px;
+    word-spacing: -1px;
+    line-height: 30px;
+    font-size: 28px;
+}
