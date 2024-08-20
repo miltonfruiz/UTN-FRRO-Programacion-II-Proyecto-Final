@@ -12,13 +12,31 @@ th {
 }
 
 .marca {
-   width: 180px;
+   width: 240px;
    height: auto;
    margin: 20px;
    display: block;
    margin: auto;
    padding: 20px;
    object-fit: contain;
+}
+
+/*-----------------------B A R R A ---------------------*/
+
+.barranavegacion{
+   font-family: Univers LT Std, bold;
+   font-size: 13px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   list-style-type: none;
+   margin: 0px;
+   padding: 0;
+   top: 100px;
+   text-align: center;
+   display: flex;
+}
+li {
+   margin-right: 50px;
 }
 
 h1,
@@ -43,22 +61,6 @@ h2 {
 
 }
 
-ul {
-   border-bottom-left-radius: 15px;
-   border-bottom-right-radius: 15px;
-   list-style-type: none;
-   margin: 0px;
-   padding: 0;
-   top: 100px;
-   right: auto;
-   left: auto;
-   text-align: center;
-   display: flex;
-}
-
-li {
-   margin-right: 50px;
-}
 
 ul:link {
    color: black;
