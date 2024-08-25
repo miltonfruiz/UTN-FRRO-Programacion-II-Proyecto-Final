@@ -18,6 +18,7 @@ th {
    display: block;
    margin: auto;
    padding: 20px;
+   margin-top: 10px;
    object-fit: contain;
 }
 
