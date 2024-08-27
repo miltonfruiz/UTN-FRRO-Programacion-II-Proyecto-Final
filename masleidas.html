@@ -1,47 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/styles.css" />
-        <title>Mas Leidas</title>
-    </head>
-    <body>
-        <div>
-            <div class="button-container">
-                <button class="button">Mas Leidas</button>
-            </div>
-            <div class="links-container">
-                <div class="james">
-                    <img src="" alt="" class="james-img" />
-                    <p class="james-tittle">James Cameron</p>
-                    <p class="james-description">El director de la exitosa película Titanic
-                        opina sobre el reciente hundimiento del
-                        submarino Titán, fabricado por OceanGate.</p>
-                </div>
-                <div class="paises">
-                    <img src="" alt="" class="paises-img" />
-                    <p class="paises-tittle">Países Innovadores</p>
-                    <p class="paises-description">¿Cuáles son los países con mayor taza de
-                        innovación tecnológica en todo el mundo?
-                        Infografía de demostración.</p>
-                </div>
-                <div class="apps">
-                    <img src="" alt="" class="apps-img" />
-                    <p class="apps-tittle">Apps Falsas</p>
-                    <p class="apps-description">Los mejores tips para evitar el robo de toda
-                        información personal por medio de ciertas
-                        aplicaciónes falsas</p>
-                </div>
-                <div class="nueva">
-                    <img src="" alt="" class="nueva-img" />
-                    <p class="nueva-tittle">Nueva Manera de Viajar</p>
-                    <p class="nueva-description">Estados Unidos implementa avanzados
-                        robots como nueva tecnología en muchos
-                        de sus aeropuertos.</p>
-                </div>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Mas Leidas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="col-8">
+      <div class="button-container col-8">
+        <button
+          id="mas-leidas"
+          class="btn btn-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Mas Leídas
+        </button>
+      </div>
     </div>
-</body>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        <div class="links-container">
+          <div class="james col-2">
+            <img src="" alt="" class="james-img" />
+            <p class="james-tittle">James Cameron</p>
+            <p class="james-description">
+              El director de la exitosa película Titanic opina sobre el reciente
+              hundimiento del submarino Titán, fabricado por OceanGate.
+            </p>
+          </div>
+          <div class="paises col-2">
+            <img src="" alt="" class="paises-img" />
+            <p class="paises-tittle">Países Innovadores</p>
+            <p class="paises-description">
+              ¿Cuáles son los países con mayor taza de innovación tecnológica en
+              todo el mundo? Infografía de demostración.
+            </p>
+          </div>
+          <div class="apps col-2">
+            <img src="" alt="" class="apps-img" />
+            <p class="apps-tittle">Apps Falsas</p>
+            <p class="apps-description">
+              Los mejores tips para evitar el robo de toda información personal
+              por medio de ciertas aplicaciónes falsas
+            </p>
+          </div>
+          <div class="nueva col-2">
+            <img src="" alt="" class="nueva-img" />
+            <p class="nueva-tittle">Nueva Manera de Viajar</p>
+            <p class="nueva-description">
+              Estados Unidos implementa avanzados robots como nueva tecnología
+              en muchos de sus aeropuertos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
