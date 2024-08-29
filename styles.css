@@ -8,6 +8,13 @@
 th {
   border: 1px solid black;
 }
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+  border: 2px solid red;
+}
 .h3-container {
   display: flex;
   justify-content: center;
@@ -27,6 +34,7 @@ th {
   align-items: center;
   margin: 20px 0px 20px 0px;
   height: 220px;
+  font-family: "Univers LT Std", sans-serif;
 }
 .james,
 .paises,
@@ -83,7 +91,10 @@ th {
   height: 100%;
   background-color: rgba(0, 128, 0, 0.397);
 }
-.james-img-container {
+.james-img-container,
+.paises-img-container,
+.apps-img-container,
+.nueva-img-container {
   width: 100%;
   height: auto;
 }
@@ -160,4 +171,69 @@ th {
   padding: 7px 15px 7px 15px;
   font-size: 18px;
   border-radius: 8px;
+}
+#recomendadas {
+  padding: 7px 15px 7px 15px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.grid2-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+  height: 350px;
+  font-family: "Univers LT Std", sans-serif;
+}
+.meta,
+.bloque2,
+.bloque3,
+.bloque4 {
+  border: 2px solid blue;
+  height: 160px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.bloque-vertical {
+  border: 2px solid blue;
+  height: 300px;
+}
+.recomendadas-container {
+  display: flex;
+  justify-content: center;
+}
+.subrecomendadas-container {
+  display: flex;
+  justify-content: start;
+}
+.meta-title {
+  font-size: 13px;
+  font-weight: 900;
+  text-align: start;
+}
+.meta-description {
+  text-align: justify;
+  font-size: 9px;
+  font-family: "Univers LT Std", sans-serif;
+  font-weight: 500;
+}
+.meta-subtitle {
+  text-align: start;
+  margin-top: 15px;
+  font-size: 8px;
+}
+.sub-meta {
+  width: 100%;
+  height: 85%;
+  display: block;
+  justify-content: space-evenly;
+}
+.meta-title-container {
+  height: 23%;
+}
+.meta-subtitle-container {
+  height: 13%;
 }
