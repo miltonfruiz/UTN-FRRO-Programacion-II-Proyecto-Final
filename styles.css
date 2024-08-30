@@ -13,7 +13,7 @@ th {
   justify-content: center;
   align-items: center;
   height: 370px;
-  border: 2px solid red;
+  border: 1px solid red;
 }
 .h3-container {
   display: flex;
@@ -180,15 +180,15 @@ th {
 .grid2-container {
   display: flex;
   justify-content: center;
-  border: 2px solid red;
+  border: 1px solid red;
   height: 350px;
   font-family: "Univers LT Std", sans-serif;
 }
 .meta,
 .fondo,
-.bloque3,
-.bloque4 {
-  border: 2px solid blue;
+.indentidad,
+.cuando {
+  border: 1px solid blue;
   height: 160px;
   width: 100%;
   flex-direction: column;
@@ -198,7 +198,7 @@ th {
   border-radius: 4px;
 }
 .bloque-vertical {
-  border: 2px solid blue;
+  border: 1px solid blue;
   height: 320px;
 }
 .recomendadas-container {
@@ -210,39 +210,61 @@ th {
   justify-content: start;
 }
 .meta-title,
-.fondo-title {
+.fondo-title,
+.indentidad-title,
+.cuando-title {
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 800;
   text-align: start;
+  letter-spacing: -1px;
+  line-height: 17px;
 }
 .fondo-title {
-  font-size: 12px;
+  font-weight: 900;
 }
 .meta-description,
-.fondo-description {
+.fondo-description,
+.indentidad-description,
+.cuando-description {
   text-align: justify;
   font-size: 9px;
   font-family: "Univers LT Std", sans-serif;
   font-weight: 500;
+  line-height: 12px;
+  color: black;
 }
 .meta-subtitle,
-.fondo-subtitle {
+.fondo-subtitle,
+.indentidad-subtitle,
+.cuando-subtitle {
   text-align: start;
   margin-top: 15px;
   font-size: 8px;
+  font-weight: 800;
+  color: gray;
 }
 .sub-meta,
-.sub-fondo {
+.sub-fondo,
+.sub-indentidad,
+.sub-cuando {
   width: 100%;
   height: 85%;
   display: block;
   justify-content: space-evenly;
 }
 .meta-title-container,
-.fondo-title-container {
-  height: 23%;
+.fondo-title-container,
+.indentidad-title-container {
+  height: 22%;
+}
+.cuando-title-container {
+  height: 32%;
 }
 .meta-subtitle-container,
-.fondo-subtitle-container {
+.fondo-subtitle-container,
+.indentidad-subtitle-container {
+  height: 15%;
+}
+.cuando-subtitle-container {
   height: 13%;
 }
