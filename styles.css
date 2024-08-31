@@ -186,6 +186,7 @@ th {
 .fondo,
 .indentidad,
 .cuando {
+  position: relative;
   height: 160px;
   width: 100%;
   flex-direction: column;
@@ -194,6 +195,30 @@ th {
   align-items: center;
   border-radius: 7px;
   padding-top: 2px;
+}
+.fondo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 90%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.384);
+}
+.fondo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.384);
+}
+.cuando::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.384);
 }
 .meta,
 .indentidad {
