@@ -89,7 +89,6 @@ th {
   justify-content: center;
   width: 90%;
   height: 100%;
-  background-color: rgba(0, 128, 0, 0.397);
 }
 .james-img-container,
 .paises-img-container,
@@ -173,14 +172,13 @@ th {
   border-radius: 8px;
 }
 #recomendadas {
-  padding: 7px 15px 7px 15px;
+  padding: 9px 15px 9px 15px;
   font-size: 18px;
   border-radius: 8px;
 }
 .grid2-container {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
   height: 350px;
   font-family: "Univers LT Std", sans-serif;
 }
@@ -188,18 +186,35 @@ th {
 .fondo,
 .indentidad,
 .cuando {
-  border: 1px solid blue;
   height: 160px;
   width: 100%;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
+  border-radius: 7px;
+  padding-top: 2px;
+}
+.meta,
+.indentidad {
+  border: 1px solid rgba(128, 128, 128, 0.384);
+}
+.meta {
+  border-bottom: none;
 }
 .bloque-vertical {
-  border: 1px solid blue;
+  border: 1px solid rgba(128, 128, 128, 0.384);
   height: 320px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  padding-top: 13px;
+}
+.como {
+  width: 95%;
 }
 .recomendadas-container {
   display: flex;
@@ -208,24 +223,36 @@ th {
 .subrecomendadas-container {
   display: flex;
   justify-content: start;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .meta-title,
 .fondo-title,
 .indentidad-title,
-.cuando-title {
+.cuando-title,
+.como-title {
   font-size: 13px;
   font-weight: 800;
   text-align: start;
   letter-spacing: -1px;
   line-height: 17px;
 }
+.meta-title {
+  font-size: 14px;
+}
+.como-title {
+  font-size: 15px;
+  letter-spacing: -0.7px;
+}
 .fondo-title {
   font-weight: 900;
+  width: 95%;
 }
 .meta-description,
 .fondo-description,
 .indentidad-description,
-.cuando-description {
+.cuando-description,
+.como-description {
   text-align: justify;
   font-size: 9px;
   font-family: "Univers LT Std", sans-serif;
@@ -233,10 +260,14 @@ th {
   line-height: 12px;
   color: black;
 }
+.fondo-description {
+  width: 100%;
+}
 .meta-subtitle,
 .fondo-subtitle,
 .indentidad-subtitle,
-.cuando-subtitle {
+.cuando-subtitle,
+.como-subtitle {
   text-align: start;
   margin-top: 15px;
   font-size: 8px;
@@ -246,8 +277,9 @@ th {
 .sub-meta,
 .sub-fondo,
 .sub-indentidad,
-.sub-cuando {
-  width: 100%;
+.sub-cuando,
+.sub-como {
+  width: 98%;
   height: 85%;
   display: block;
   justify-content: space-evenly;
@@ -257,6 +289,9 @@ th {
 .indentidad-title-container {
   height: 22%;
 }
+.como-title-container {
+  height: 18%;
+}
 .cuando-title-container {
   height: 32%;
 }
@@ -265,6 +300,24 @@ th {
 .indentidad-subtitle-container {
   height: 15%;
 }
+.como-subtitle-container {
+  height: 9%;
+}
 .cuando-subtitle-container {
   height: 13%;
+}
+.img-como {
+  width: 100%;
+  height: auto;
+}
+.como-img-container {
+  display: flex;
+  justify-content: center;
+  height: 39%;
+}
+.como-img-subcontainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
