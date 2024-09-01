@@ -1,3 +1,4 @@
+/*------------------- Selector Universal ---------------------*/
 * {
   margin: 0px;
   padding: 0px;
@@ -8,18 +9,12 @@
 th {
   border: 1px solid black;
 }
-.article {
+/*------------------- Bloque Más Leídas ---------------------*/
+.grid1-container {
+  height: 250px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 370px;
-  border: 1px solid red;
-}
-.h3-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 0px 40px 0px;
+  font-family: "Univers LT Std", sans-serif;
 }
 .h3-text {
   background-color: black;
@@ -28,57 +23,46 @@ th {
   border-radius: 7px;
   font-weight: bolder;
 }
-.links-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0px 20px 0px;
-  height: 220px;
-  font-family: "Univers LT Std", sans-serif;
-}
 .james,
 .paises,
 .apps,
 .nueva {
+  position: relative;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 240px;
+  height: 200px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.459);
-  margin: 20px 0px 20px 0px;
+}
+.james-subcontainer::before,
+.paises-subcontainer::before,
+.apps-subcontainer::before {
+  content: "";
+  position: absolute;
+  top: 1;
+  right: 0;
+  height: 82%;
+  border-left: 1px solid rgba(128, 128, 128, 0.459);
+  box-sizing: border-box;
 }
 .james-subcontainer,
 .paises-subcontainer,
-.apps-subcontainer {
-  width: 100%;
-  height: 100%;
-}
-.nueva-subcontainer,
-.links-sub-container {
-  width: 100%;
-  height: 100%;
+.apps-subcontainer,
+.nueva-subcontainer {
+  width: 105%;
+  height: 90%;
 }
 .james-img,
 .paises-img,
-.apps-img {
-  display: flex;
-  justify-content: center;
-  padding: 1px;
-  position: relative;
-  width: 100%;
-  height: 50%;
-  color: 2px solid rgb(28, 31, 28);
-  border-right: 1px solid rgba(128, 128, 128, 0.459);
-}
+.apps-img,
 .nueva-img {
   display: flex;
   justify-content: center;
   padding: 1px;
   position: relative;
-  text-align: center;
   width: 100%;
-  height: 50%;
+  height: 55%;
   color: 2px solid rgb(28, 31, 28);
 }
 .james-sub-img,
@@ -87,7 +71,6 @@ th {
 .nueva-sub-img {
   display: flex;
   justify-content: center;
-  width: 90%;
   height: 100%;
 }
 .james-img-container,
@@ -105,7 +88,6 @@ th {
 .apps-subdescription-container,
 .nueva-subtittle-container,
 .nueva-subdescription-container {
-  width: 90%;
   height: 100%;
   display: flex;
   justify-content: flex-start;
@@ -116,7 +98,7 @@ th {
   font-size: 12px;
   position: absolute;
   top: -5px;
-  left: 5px;
+  left: -3px;
   background-color: black;
   padding: 0px 7px 0px 7px;
   color: whitesmoke;
@@ -127,12 +109,8 @@ th {
 .paises-tittle-container,
 .apps-tittle-container,
 .nueva-tittle-container {
-  width: 100%;
   height: 17%;
   font-weight: 800;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .james-tittle-text,
 .paises-tittle-text,
@@ -145,21 +123,12 @@ th {
 .paises-description,
 .apps-description,
 .nueva-description {
-  width: 100%;
-  font-size: 10px;
   text-align: justify;
+  font-size: 9px;
+  font-family: "Univers LT Std", sans-serif;
   font-weight: 500;
-}
-.james-tittle-container,
-.james-description-container,
-.paises-tittle-container,
-.paises-description-container,
-.apps-tittle-container,
-.apps-description-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 1px solid rgba(128, 128, 128, 0.459);
+  line-height: 12px;
+  color: black;
 }
 .nueva-description-container {
   display: flex;
@@ -171,16 +140,18 @@ th {
   font-size: 18px;
   border-radius: 8px;
 }
-#recomendadas {
-  padding: 9px 15px 9px 15px;
-  font-size: 18px;
-  border-radius: 8px;
-}
+/*------------------- Bloque Recomendadas ---------------------*/
+
 .grid2-container {
   display: flex;
   justify-content: center;
   height: 350px;
   font-family: "Univers LT Std", sans-serif;
+}
+#recomendadas {
+  padding: 9px 15px 9px 15px;
+  font-size: 18px;
+  border-radius: 8px;
 }
 .meta,
 .fondo,
